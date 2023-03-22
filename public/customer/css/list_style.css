@@ -1,0 +1,16 @@
+html{
+    scroll-behavior: smooth;
+}
+
+#code-lab-pizza{
+    animation: tilt 1s infinite;
+}
+
+@keyframes tilt {
+    from{
+        transform: scale(1.01);
+    }
+    to{
+        transform: scale(1);
+    }
+}
